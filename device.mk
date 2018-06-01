@@ -160,7 +160,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953 \
     libdisplayconfig \
     liboverlay \
-    libqdMetaData \
     libqdMetaData.system \
     libgenlock \
     libtinyxml \
@@ -213,7 +212,9 @@ PRODUCT_PACKAGES += \
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@1.0-impl \
-    android.hardware.health@1.0-service
+    android.hardware.health@1.0-convert \
+    android.hardware.health@1.0-service \
+    android.hardware.health@1.0
 
 # HIDL
 PRODUCT_PACKAGES += \
