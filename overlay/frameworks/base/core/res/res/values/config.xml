@@ -373,8 +373,8 @@
 
      <!-- Default value for proximity check on screen wake
       NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-     <bool name="config_proximityCheckOnWake">true</bool>
-     <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
+     <!--bool name="config_proximityCheckOnWake">true</bool-->
+     <!--bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool-->
 
     <!-- AlwaysOnDisplay  -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
@@ -398,6 +398,12 @@
    <!-- Should the pinner service pin the Camera application? -->
    <bool name="config_pinnerCameraApp">true</bool>
 
-    <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_enableSmartPixels">true</bool>
+   <!-- Whether the device supports Smart Pixels -->
+   <bool name="config_enableSmartPixels">true</bool>
+
+   <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
+   <bool name="config_dozePulsePickup">true</bool>
+
+   <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+   <bool name="config_displayBlanksAfterDoze">true</bool>
 </resources>
