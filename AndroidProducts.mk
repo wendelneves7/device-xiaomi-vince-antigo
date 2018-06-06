@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_vince.mk
+    $(LOCAL_DIR)/toxyc_vince.mk
